@@ -1,0 +1,135 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100%;
+  background: #F1F1F1;
+}
+
+main {
+  width: 80%;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.top {
+  position: relative;
+}
+
+.top-input {
+  padding: 0 80px 0 10px;
+  width: 100%;
+  height: 100px;
+  border: 1px solid black;
+  font-size: 100px;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+}
+
+.top-input:focus {
+  outline: none;
+}
+
+.top-input::placeholder {
+  color: #c2c2c2;
+}
+
+.top-button {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  background: transparent url(/assets/img/magnifier.svg) no-repeat center center;
+  cursor: pointer;
+  border: none;
+}
+
+.top-button:focus {
+  outline: none;
+}
+
+.content {
+  margin-top: 40px;
+}
+
+.column {
+  display: inline-block;
+  width: 33%;
+  margin: 0;
+  padding: 0;
+}
+
+.column ul {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.column-item {
+  list-style: none;
+  padding: 10px;
+  margin: 5px 0;
+  background: #E4E4E5;
+  width: 90%;
+  border-radius: 4px;
+  font-size: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #c2c2c2;
+  font-size: 16px;
+  font-weight: 800;
+  width: 30%;
+}
+
+h3 {
+  display: inline-block;
+  font-size: 16px;
+  width: 70%;
+  vertical-align: middle;
+}
+
+.column-item img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.round-img{
+  border-radius:25px;
+}
+
+/*.top{
+  font-size: 0;
+  vertical-align: top;
+  margin: 0 auto;
+  width: 80%;
+}
+.top-input{
+  display: inline-block;
+  width: 80%;
+  font-size: 50px;
+  height: 100px;
+
+}
+.top-button{
+  display: inline-block;
+  width: 20%;
+  font-size: 50px;
+  height: 100px;
+}
+.top-button button{
+  width: 80px;
+  height: 80px;
+
+}*/
