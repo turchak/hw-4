@@ -110,6 +110,7 @@ h3 {
 
 .column-item:hover {
   background: rgba(118, 117, 128, 0.1);
+  cursor: pointer;
 }
 
 .column-item:hover a {
