@@ -87,6 +87,7 @@ h3 {
   width: 30%;
   margin: 0;
   padding: 0;
+  vertical-align: top;
 }
 
 .column ul {
