@@ -68,7 +68,7 @@ h3 {
   top: 10px;
   width: 80px;
   height: 80px;
-  background: transparent url(/assets/img/magnifier.svg) no-repeat center center;
+  background: transparent url(../img/magnifier.svg) no-repeat center center;
   cursor: pointer;
   border: none;
 }
