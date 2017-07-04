@@ -37,7 +37,7 @@ h3 {
   word-wrap: normal;
   width: calc(100% - 50px);
   vertical-align: middle;
-  text-indent: 10px;
+  padding-left: 10px;
 }
 
 .top {
