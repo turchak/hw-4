@@ -24,7 +24,7 @@ a {
 }
 
 h2 {
-  text-transform: uppercase;
+  text-transform:uppercase;
   color: #c2c2c2;
   font-size: 16px;
   font-weight: 800;
@@ -39,11 +39,11 @@ h3 {
   padding-left: 10px;
 }
 
-.top {
+.search-top {
   position: relative;
 }
 
-.top-search {
+.search-text {
   padding: 0 80px 0 10px;
   width: 100%;
   height: 100px;
@@ -53,11 +53,11 @@ h3 {
   border: none;
 }
 
-.top-search:focus {
+.search-text:focus {
   outline: none;
 }
 
-.top-search::placeholder {
+.search-text::placeholder {
   color: #c2c2c2;
 }
 
